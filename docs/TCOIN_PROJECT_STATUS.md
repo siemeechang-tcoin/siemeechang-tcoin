@@ -194,3 +194,52 @@ is still accessible to the project owner remains **UNKNOWN** — this is an owne
 ### See Also
 
 Full audit details: `docs/TCOIN_AUDIT_PHASE4.md`
+
+
+---
+
+## Phase 4.1 Additions (2026-09-26)
+
+### Mint Creation — Now Fully Verified
+
+| Event | Timestamp (UTC) | Slot | Signature |
+|-------|-----------------|------|-----------|
+| Mint initialized | 2025-02-15T21:00:02Z | 361,326,435 | `3kzVYxnqto7u6g4VG1TpCarXuD9KUdWy6dfhRSjdHU986GZfNwW5qXTRE8qyjXuMnVGN5oaGzwCnvUsu5KknWz6b` |
+| Metadata created | 2025-02-15T21:09:22Z | 361,327,888 | `5TgsvfVQvz33apz8dAL56RWVDTebvBVxc67RigRMxT4sDZgBQMAP2edjyVhbP22TgyWg3qbFvW7dpdbRuw3VPD7D` |
+
+Both transactions signed solely by `Aqgn3AW7j92qkRjFhzYXbyACkaJSz8zKsSqSZunBLrTK`.
+
+### Project Description — Recovered
+
+"The official token for TheTeamCoin, powering travel, rewards, and investment."
+
+This is the only confirmed project description. It was stored in the IPFS metadata file.
+
+### Metadata URI Issue — Root Cause Identified
+
+The metadata URI returns `text/rtf` because the JSON was typed in Apple TextEdit on macOS
+and saved as RTF instead of plain JSON. The JSON content is valid and has been fully recovered.
+The image field contains a placeholder URL (`https://your-logo-url.png`), not a real image.
+
+### Updated: What Has Been Verified (Phase 4.1)
+
+- ✅ Mint creation date: **February 15, 2025, 21:00:02 UTC**
+- ✅ Mint creation transaction signature: fully recovered
+- ✅ Metadata creation transaction signature: fully recovered
+- ✅ Both transactions signed by the same wallet (the mint authority)
+- ✅ Decimals = 8 confirmed in the initializeMint instruction
+- ✅ Freeze authority = null confirmed in the initializeMint instruction
+- ✅ Project description recovered: "powering travel, rewards, and investment"
+- ✅ Image URL in metadata is a placeholder — no real logo was ever linked
+- ✅ No social links, no website URL, no tokenomics in the metadata
+
+### Updated: What Remains Unknown
+
+- [ ] Whether the mint authority keypair is still accessible to the owner
+- [ ] Whether a real logo was ever created
+- [ ] Whether any tokenomics plan existed beyond the description text
+- [ ] Whether any prior website or application was built
+
+### See Also
+
+Full Phase 4.1 details: `docs/TCOIN_AUDIT_PHASE4_1.md`
