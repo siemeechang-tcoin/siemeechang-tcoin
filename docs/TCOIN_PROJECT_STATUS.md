@@ -163,3 +163,34 @@ Freeze authority: **null** — Individual token accounts cannot be frozen.
 
 ---
 *Last updated: 2026-09-26*
+
+
+---
+
+## Phase 4 Audit Additions (2026-09-26)
+
+### Updated: What Has Been Verified (Phase 4)
+
+- ✅ Mint created approximately **February 15, 2025** (slot 361,327,888 region)
+- ✅ Exactly **2 on-chain transactions** (initialization + metadata creation)
+- ✅ No minting, burning, authority-change, or transfer instructions ever executed
+- ✅ Mint authority is a **standard wallet** (system-owned, non-executable keypair account)
+- ✅ Metadata URI is reachable (HTTP 200) — but returns **text/rtf**, not JSON
+- ✅ On-chain name/symbol fields ("TheTeamCoin" / "TCOIN") are correct and unaffected by RTF issue
+
+### Updated: Critical Finding — Metadata URI Format
+
+The metadata URI returns a **text/rtf** file, not the JSON expected by Metaplex tooling.
+Standard wallets and NFT explorers cannot parse this URI.
+The on-chain name and symbol are stored directly on-chain and are unaffected.
+The RTF file may contain the original description, image URL, or tokenomics — contents currently unknown.
+
+### Updated: Token Authority Status
+
+The mint authority (`Aqgn3AW7j92qkRjFhzYXbyACkaJSz8zKsSqSZunBLrTK`) is confirmed to be
+a standard Solana wallet (system-owned, non-executable). Whether the private keypair
+is still accessible to the project owner remains **UNKNOWN** — this is an owner-side question.
+
+### See Also
+
+Full audit details: `docs/TCOIN_AUDIT_PHASE4.md`
