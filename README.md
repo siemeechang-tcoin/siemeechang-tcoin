@@ -6,7 +6,7 @@
 
 This repository documents the development, technical history, and verified blockchain records of SIEMEECHANG TCOIN.
 
-The project originated as TheTeamCoin (TCOIN) on Solana Devnet and has since progressed to its current SIEMEECHANG TCOIN Mainnet deployment.
+Official SIEMEECHANG TCOIN project — Solana Mainnet token by SIEMEECHANG LLC. Technical records, project history, and ecosystem development.
 
 The project is associated with the official SIEMEECHANG websites:
 
