@@ -33,6 +33,8 @@ Official TCOIN information: https://siemeechang.com/en/tcoin
 
 `FXupYntPGnMfBo8icCpAmBPnoVCpH6MiPLJLTF36ABQ7`
 
+**[View SIEMEECHANG TCOIN on Solana Explorer](https://explorer.solana.com/address/FXupYntPGnMfBo8icCpAmBPnoVCpH6MiPLJLTF36ABQ7)**
+
 ## Project History
 
 TheTeamCoin Devnet project represents the original development history.
