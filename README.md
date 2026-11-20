@@ -2,13 +2,13 @@
 
 > **SIEMEECHANG TCOIN is a Solana Mainnet token created by SIEMEECHANG LLC.**
 
-**[View SIEMEECHANG TCOIN on Solana Explorer]
+**[View SIEMEECHANG TCOIN on Solana Explorer](https://explorer.solana.com/address/FXupYntPGnMfBo8icCpAmBPnoVCpH6MiPLJLTF36ABQ7)**
 
 ## Overview
 
 This repository documents the development, technical history, and verified blockchain records of SIEMEECHANG TCOIN.
 
-Official SIEMEECHANG TCOIN project — Solana Mainnet token by SIEMEECHANG LLC. Technical records, project history, and ecosystem development.
+Official SIEMEECHANG TCOIN project — Solana Mainnet token by SIEMEECHANG LLC. Technical records, project history, and ecosystem development. 
 
 The project is associated with the official SIEMEECHANG websites:
 
