@@ -1,7 +1,7 @@
 # SIEMEECHANG TCOIN — Official Project Repository
 
 > **SIEMEECHANG TCOIN is a Solana Mainnet token created by SIEMEECHANG LLC.**
-
+View SIEMEECHANG TCOIN on Solana Explorer
 ## Overview
 
 This repository documents the development, technical history, and verified blockchain records of SIEMEECHANG TCOIN.
